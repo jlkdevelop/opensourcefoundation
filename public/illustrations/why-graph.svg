@@ -1,0 +1,31 @@
+<svg width="420" height="340" viewBox="0 0 420 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Chart background -->
+  <rect x="40" y="20" width="360" height="260" rx="16" fill="#222222"/>
+  <!-- Grid lines -->
+  <line x1="80" y1="240" x2="380" y2="240" stroke="#333" stroke-width="1"/>
+  <line x1="80" y1="190" x2="380" y2="190" stroke="#333" stroke-width="1"/>
+  <line x1="80" y1="140" x2="380" y2="140" stroke="#333" stroke-width="1"/>
+  <line x1="80" y1="90" x2="380" y2="90" stroke="#333" stroke-width="1"/>
+  <!-- Bars -->
+  <rect x="90" y="180" width="36" height="60" rx="6" fill="#C5C8FF" opacity="0.8"/>
+  <rect x="150" y="150" width="36" height="90" rx="6" fill="#C5C8FF" opacity="0.8"/>
+  <rect x="210" y="110" width="36" height="130" rx="6" fill="#F6FF52" opacity="0.9"/>
+  <rect x="270" y="80" width="36" height="160" rx="6" fill="#F6FF52"/>
+  <rect x="330" y="50" width="36" height="190" rx="6" fill="#F6FF52"/>
+  <!-- Trend line -->
+  <polyline points="108,200 168,175 228,130 288,100 348,70" stroke="#fff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Dots on trend line -->
+  <circle cx="108" cy="200" r="5" fill="#fff"/>
+  <circle cx="168" cy="175" r="5" fill="#fff"/>
+  <circle cx="228" cy="130" r="5" fill="#F6FF52"/>
+  <circle cx="288" cy="100" r="5" fill="#F6FF52"/>
+  <circle cx="348" cy="70" r="7" fill="#F6FF52" stroke="#fff" stroke-width="2"/>
+  <!-- X labels -->
+  <text x="108" y="268" text-anchor="middle" font-family="monospace" font-size="11" fill="#555">2022</text>
+  <text x="168" y="268" text-anchor="middle" font-family="monospace" font-size="11" fill="#555">2023</text>
+  <text x="228" y="268" text-anchor="middle" font-family="monospace" font-size="11" fill="#777">2024</text>
+  <text x="288" y="268" text-anchor="middle" font-family="monospace" font-size="11" fill="#999">2025</text>
+  <text x="348" y="268" text-anchor="middle" font-family="monospace" font-size="11" fill="#F6FF52">2026</text>
+  <!-- Label -->
+  <text x="230" y="308" text-anchor="middle" font-family="monospace" font-size="12" fill="#666">OSS funding momentum</text>
+</svg>
