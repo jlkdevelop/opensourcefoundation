@@ -42,3 +42,12 @@ venv/
 *.log
 .cache/
 .turbo/
+
+# Next.js
+.next/
+out/
+
+# Environment
+.env
+.env.local
+.env*.local
