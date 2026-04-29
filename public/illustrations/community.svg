@@ -1,0 +1,27 @@
+<svg width="400" height="320" viewBox="0 0 400 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Connection lines -->
+  <line x1="200" y1="160" x2="80" y2="80" stroke="#F6FF52" stroke-width="2" stroke-dasharray="6 4"/>
+  <line x1="200" y1="160" x2="320" y2="80" stroke="#F6FF52" stroke-width="2" stroke-dasharray="6 4"/>
+  <line x1="200" y1="160" x2="80" y2="250" stroke="#C5C8FF" stroke-width="2" stroke-dasharray="6 4"/>
+  <line x1="200" y1="160" x2="320" y2="250" stroke="#C5C8FF" stroke-width="2" stroke-dasharray="6 4"/>
+  <line x1="200" y1="160" x2="200" y2="60" stroke="#F6FF52" stroke-width="2" stroke-dasharray="6 4"/>
+  <!-- Center hub -->
+  <circle cx="200" cy="160" r="36" fill="#1A1A1A" stroke="#F6FF52" stroke-width="3"/>
+  <text x="200" y="166" text-anchor="middle" font-family="monospace" font-size="14" font-weight="bold" fill="#F6FF52">OSF</text>
+  <!-- Nodes -->
+  <circle cx="80" cy="80" r="26" fill="#1A1A1A"/>
+  <circle cx="80" cy="68" r="11" fill="#C5C8FF"/>
+  <ellipse cx="80" cy="94" rx="15" ry="9" fill="#C5C8FF"/>
+  <circle cx="320" cy="80" r="26" fill="#1A1A1A"/>
+  <circle cx="320" cy="68" r="11" fill="#F6FF52"/>
+  <ellipse cx="320" cy="94" rx="15" ry="9" fill="#F6FF52"/>
+  <circle cx="80" cy="250" r="26" fill="#1A1A1A"/>
+  <circle cx="80" cy="238" r="11" fill="#F6FF52"/>
+  <ellipse cx="80" cy="264" rx="15" ry="9" fill="#F6FF52"/>
+  <circle cx="320" cy="250" r="26" fill="#1A1A1A"/>
+  <circle cx="320" cy="238" r="11" fill="#C5C8FF"/>
+  <ellipse cx="320" cy="264" rx="15" ry="9" fill="#C5C8FF"/>
+  <circle cx="200" cy="50" r="22" fill="#1A1A1A"/>
+  <circle cx="200" cy="40" r="9" fill="#F6FF52"/>
+  <ellipse cx="200" cy="58" rx="13" ry="8" fill="#F6FF52"/>
+</svg>

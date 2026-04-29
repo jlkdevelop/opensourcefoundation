@@ -1,0 +1,23 @@
+<svg width="380" height="320" viewBox="0 0 380 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Pot -->
+  <path d="M150 270 L130 310 L250 310 L230 270 Z" fill="#1A1A1A"/>
+  <rect x="140" y="260" width="100" height="16" rx="8" fill="#1A1A1A"/>
+  <!-- Stem -->
+  <path d="M190 260 C190 200 190 160 190 120" stroke="#1A1A1A" stroke-width="6" stroke-linecap="round"/>
+  <!-- Main leaves -->
+  <ellipse cx="190" cy="160" rx="50" ry="28" fill="#F6FF52" transform="rotate(-20 190 160)"/>
+  <ellipse cx="190" cy="160" rx="50" ry="28" fill="#ECFD13" opacity="0.7" transform="rotate(20 190 160)"/>
+  <!-- Top leaf -->
+  <ellipse cx="190" cy="100" rx="36" ry="20" fill="#F6FF52"/>
+  <!-- Side leaves -->
+  <ellipse cx="150" cy="180" rx="40" ry="20" fill="#C5C8FF" transform="rotate(-30 150 180)"/>
+  <ellipse cx="230" cy="190" rx="40" ry="20" fill="#C5C8FF" transform="rotate(30 230 190)"/>
+  <!-- Coin decoration -->
+  <circle cx="310" cy="100" r="24" fill="#F6FF52" stroke="#1A1A1A" stroke-width="2.5"/>
+  <text x="310" y="108" text-anchor="middle" font-family="monospace" font-size="20" font-weight="bold" fill="#1A1A1A">$</text>
+  <circle cx="60" cy="200" r="18" fill="#F6FF52" stroke="#1A1A1A" stroke-width="2"/>
+  <text x="60" y="207" text-anchor="middle" font-family="monospace" font-size="14" font-weight="bold" fill="#1A1A1A">$</text>
+  <!-- Sparkles -->
+  <text x="320" y="200" font-size="20" fill="#C5C8FF">✦</text>
+  <text x="50" y="120" font-size="14" fill="#F6FF52">✦</text>
+</svg>
