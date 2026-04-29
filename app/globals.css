@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-yellow: #F6FF52;
+  --color-yellow-bright: #ECFD13;
+  --color-charcoal: #1A1A1A;
+  --color-card-bg: #111111;
+  --color-lavender: #C5C8FF;
+  --color-bg: #FAFAFA;
+  --font-family-sans: "Inter", system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-family-sans);
+    background-color: var(--color-bg);
+    color: var(--color-charcoal);
+    scroll-behavior: smooth;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+}
