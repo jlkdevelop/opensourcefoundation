@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex items-center pt-16 overflow-hidden bg-[#FAFAFA]"
+      className="relative pt-24 lg:pt-28 pb-12 lg:pb-16 overflow-hidden bg-[#FAFAFA]"
     >
       {/* Background accent */}
       <div
@@ -16,16 +16,16 @@ export default function Hero() {
         }}
       />
 
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-24 lg:py-32">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left: copy */}
           <div>
-            <div className="inline-flex items-center gap-2 bg-[#1A1A1A] text-[#5BD478] text-xs font-bold px-3 py-1.5 rounded-full mb-6">
+            <div className="inline-flex items-center gap-2 bg-[#1A1A1A] text-[#5BD478] text-xs font-bold px-3 py-1.5 rounded-full mb-5">
               <span className="w-1.5 h-1.5 bg-[#028537] rounded-full" />
               Now live — fund what you depend on
             </div>
 
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black tracking-tight leading-[1.0] text-[#1A1A1A] mb-6">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-[1.05] text-[#1A1A1A] mb-5">
               Fund the future of{" "}
               <span className="relative inline-block">
                 <span className="relative z-10">open source</span>
@@ -37,7 +37,7 @@ export default function Hero() {
               software
             </h1>
 
-            <p className="text-lg sm:text-xl text-[#1A1A1A]/60 font-medium leading-relaxed mb-10 max-w-xl">
+            <p className="text-base sm:text-lg text-[#1A1A1A]/60 font-medium leading-relaxed mb-7 max-w-xl">
               Connect supporters with the maintainers behind the tools the world
               depends on. Showcase your project, attract funding, and keep open
               source thriving.

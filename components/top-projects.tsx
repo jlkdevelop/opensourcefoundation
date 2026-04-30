@@ -57,14 +57,14 @@ const projects: Project[] = [
 
 export default function TopProjects() {
   return (
-    <section className="py-20 bg-[#FAFAFA] border-t border-black/5">
+    <section className="pt-12 pb-20 bg-[#FAFAFA]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-wrap items-end justify-between gap-6 mb-12">
+        <div className="flex flex-wrap items-end justify-between gap-6 mb-8">
           <div>
-            <p className="text-xs font-bold uppercase tracking-[0.18em] text-[#028537] mb-3">
+            <p className="text-xs font-bold uppercase tracking-[0.18em] text-[#028537] mb-2">
               Top funded this month
             </p>
-            <h2 className="text-4xl sm:text-5xl font-black tracking-tight text-[#1A1A1A]">
+            <h2 className="text-2xl sm:text-3xl font-black tracking-tight text-[#1A1A1A]">
               Open source the world depends on.
             </h2>
           </div>
