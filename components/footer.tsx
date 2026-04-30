@@ -48,7 +48,7 @@ export default function Footer() {
               href="/"
               className="flex items-center gap-2 font-extrabold text-xl tracking-tight text-white mb-3"
             >
-              <span className="bg-[#F6FF52] text-black rounded px-1.5 py-0.5 text-sm font-black">
+              <span className="bg-[#99FCA5] text-black rounded px-1.5 py-0.5 text-sm font-black">
                 OSF
               </span>
               Open Source Foundation

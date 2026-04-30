@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 @theme {
-  --color-yellow: #F6FF52;
-  --color-yellow-bright: #ECFD13;
+  --color-yellow: #99FCA5;
+  --color-yellow-bright: #5DFB84;
   --color-charcoal: #1A1A1A;
   --color-card-bg: #111111;
   --color-lavender: #C5C8FF;

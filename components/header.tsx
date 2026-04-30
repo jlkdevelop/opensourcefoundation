@@ -16,7 +16,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
         {/* Wordmark */}
         <a href="/" className="flex items-center gap-2 font-extrabold text-xl tracking-tight text-[#1A1A1A]">
-          <span className="bg-[#F6FF52] text-black rounded px-1.5 py-0.5 text-sm font-black">OSF</span>
+          <span className="bg-[#99FCA5] text-black rounded px-1.5 py-0.5 text-sm font-black">OSF</span>
           Open Source Foundation
         </a>
 
@@ -43,7 +43,7 @@ export default function Header() {
           </a>
           <a
             href="#submit"
-            className="flex items-center gap-1.5 bg-[#F6FF52] text-black text-sm font-bold px-4 py-2 rounded-full hover:bg-[#ECFD13] transition-colors"
+            className="flex items-center gap-1.5 bg-[#99FCA5] text-black text-sm font-bold px-4 py-2 rounded-full hover:bg-[#5DFB84] transition-colors"
           >
             Submit Project <span aria-hidden>→</span>
           </a>
@@ -82,7 +82,7 @@ export default function Header() {
           </a>
           <a
             href="#submit"
-            className="flex items-center justify-center gap-1.5 bg-[#F6FF52] text-black text-sm font-bold px-4 py-2 rounded-full"
+            className="flex items-center justify-center gap-1.5 bg-[#99FCA5] text-black text-sm font-bold px-4 py-2 rounded-full"
           >
             Submit Project →
           </a>

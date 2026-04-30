@@ -22,14 +22,14 @@ export default function WhySection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Left: copy */}
           <div>
-            <h2 className="text-4xl sm:text-5xl font-black tracking-tight text-[#F6FF52] mb-8 leading-tight">
+            <h2 className="text-4xl sm:text-5xl font-black tracking-tight text-[#99FCA5] mb-8 leading-tight">
               Why fund open source?
             </h2>
 
             <div className="flex flex-col gap-8">
               {reasons.map((r, i) => (
                 <div key={i} className="flex gap-4">
-                  <div className="flex-shrink-0 w-7 h-7 rounded-full bg-[#F6FF52] text-black font-black text-sm flex items-center justify-center mt-0.5">
+                  <div className="flex-shrink-0 w-7 h-7 rounded-full bg-[#99FCA5] text-black font-black text-sm flex items-center justify-center mt-0.5">
                     {i + 1}
                   </div>
                   <div>
@@ -46,7 +46,7 @@ export default function WhySection() {
 
             <a
               href="#explore"
-              className="mt-10 inline-flex items-center gap-2 bg-[#F6FF52] text-black font-bold px-6 py-3.5 rounded-full hover:bg-[#ECFD13] transition-colors"
+              className="mt-10 inline-flex items-center gap-2 bg-[#99FCA5] text-black font-bold px-6 py-3.5 rounded-full hover:bg-[#5DFB84] transition-colors"
             >
               Explore funded projects <span aria-hidden>→</span>
             </a>

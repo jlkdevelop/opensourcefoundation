@@ -53,3 +53,4 @@ out/
 .env*.local
 
 /app/generated/prisma
+.gstack/
