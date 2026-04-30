@@ -41,7 +41,7 @@ const sections = [
 
 export default function AlternatingSections() {
   return (
-    <section id="maintainers" className="py-8 bg-[#FAFAFA]">
+    <section id="maintainers" className="bg-[#FAFAFA]">
       {sections.map((s, i) => (
         <div
           key={s.tag}
@@ -50,7 +50,7 @@ export default function AlternatingSections() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div
               className={`grid grid-cols-1 lg:grid-cols-2 gap-16 items-center ${
-                s.flip ? "lg:flex lg:flex-row-reverse" : ""
+                s.flip ? "lg:[&>*:first-child]:order-2 lg:[&>*:last-child]:order-1" : ""
               }`}
             >
               {/* Copy side */}
