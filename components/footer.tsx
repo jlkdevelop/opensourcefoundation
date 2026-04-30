@@ -54,7 +54,7 @@ export default function Footer() {
                 alt="Open Source Foundation"
                 width={1308}
                 height={401}
-                className="h-10 w-auto brightness-0 invert"
+                className="h-14 w-auto"
               />
             </a>
             <p className="text-white/40 text-sm leading-relaxed">

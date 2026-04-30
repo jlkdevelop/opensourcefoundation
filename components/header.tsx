@@ -21,7 +21,7 @@ export default function Header() {
             alt="Open Source Foundation"
             width={1308}
             height={401}
-            className="h-9 w-auto"
+            className="h-12 w-auto"
           />
         </a>
 
@@ -48,7 +48,7 @@ export default function Header() {
           </a>
           <a
             href="#submit"
-            className="flex items-center gap-1.5 bg-[#99FCA5] text-black text-sm font-bold px-4 py-2 rounded-full hover:bg-[#5DFB84] transition-colors"
+            className="flex items-center gap-1.5 bg-[#028537] text-white text-sm font-bold px-4 py-2 rounded-full hover:bg-[#019B3F] transition-colors"
           >
             Submit Project <span aria-hidden>→</span>
           </a>
@@ -87,7 +87,7 @@ export default function Header() {
           </a>
           <a
             href="#submit"
-            className="flex items-center justify-center gap-1.5 bg-[#99FCA5] text-black text-sm font-bold px-4 py-2 rounded-full"
+            className="flex items-center justify-center gap-1.5 bg-[#028537] text-white text-sm font-bold px-4 py-2 rounded-full"
           >
             Submit Project →
           </a>

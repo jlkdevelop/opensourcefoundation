@@ -35,7 +35,7 @@ export default function EmailSignup() {
         </p>
 
         {status === "done" ? (
-          <div className="bg-[#99FCA5] text-black font-bold px-6 py-4 rounded-2xl inline-block">
+          <div className="bg-[#028537] text-white font-bold px-6 py-4 rounded-2xl inline-block">
             You&apos;re on the list — thanks!
           </div>
         ) : (
@@ -49,12 +49,12 @@ export default function EmailSignup() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder="you@example.com"
-              className="flex-1 border-2 border-[#1A1A1A] rounded-full px-5 py-3 text-sm font-medium bg-white focus:outline-none focus:border-[#99FCA5] transition-colors"
+              className="flex-1 border-2 border-[#1A1A1A] rounded-full px-5 py-3 text-sm font-medium bg-white focus:outline-none focus:border-[#028537] transition-colors"
             />
             <button
               type="submit"
               disabled={status === "loading"}
-              className="bg-[#1A1A1A] text-[#99FCA5] font-bold px-6 py-3 rounded-full text-sm hover:bg-[#333] transition-colors disabled:opacity-50"
+              className="bg-[#1A1A1A] text-[#5BD478] font-bold px-6 py-3 rounded-full text-sm hover:bg-[#333] transition-colors disabled:opacity-50"
             >
               {status === "loading" ? "Subscribing..." : "Subscribe →"}
             </button>

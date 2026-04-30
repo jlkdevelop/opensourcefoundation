@@ -55,7 +55,7 @@ export default function AlternatingSections() {
             >
               {/* Copy side */}
               <div>
-                <div className="inline-block bg-[#1A1A1A] text-[#99FCA5] text-xs font-bold px-3 py-1 rounded-full mb-4">
+                <div className="inline-block bg-[#1A1A1A] text-[#5BD478] text-xs font-bold px-3 py-1 rounded-full mb-4">
                   {s.tag}
                 </div>
                 <h2 className="text-4xl sm:text-5xl font-black tracking-tight text-[#1A1A1A] mb-5 leading-tight">
@@ -66,7 +66,7 @@ export default function AlternatingSections() {
                 </p>
                 <a
                   href={s.cta.href}
-                  className="inline-flex items-center gap-2 bg-[#99FCA5] text-black font-bold px-6 py-3.5 rounded-full hover:bg-[#5DFB84] transition-colors"
+                  className="inline-flex items-center gap-2 bg-[#028537] text-white font-bold px-6 py-3.5 rounded-full hover:bg-[#019B3F] transition-colors"
                 >
                   {s.cta.label} <span aria-hidden>→</span>
                 </a>

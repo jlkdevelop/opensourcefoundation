@@ -11,7 +11,7 @@ export default function Hero() {
         className="absolute top-0 right-0 w-1/2 h-full opacity-20 pointer-events-none"
         style={{
           background:
-            "radial-gradient(ellipse at 80% 30%, #99FCA5 0%, transparent 70%)",
+            "radial-gradient(ellipse at 80% 30%, #028537 0%, transparent 70%)",
         }}
       />
 
@@ -19,8 +19,8 @@ export default function Hero() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Left: copy */}
           <div>
-            <div className="inline-flex items-center gap-2 bg-[#1A1A1A] text-[#99FCA5] text-xs font-bold px-3 py-1.5 rounded-full mb-6">
-              <span className="w-1.5 h-1.5 bg-[#99FCA5] rounded-full" />
+            <div className="inline-flex items-center gap-2 bg-[#1A1A1A] text-[#5BD478] text-xs font-bold px-3 py-1.5 rounded-full mb-6">
+              <span className="w-1.5 h-1.5 bg-[#028537] rounded-full" />
               Now live — fund what you depend on
             </div>
 
@@ -29,7 +29,7 @@ export default function Hero() {
               <span className="relative inline-block">
                 <span className="relative z-10">open source</span>
                 <span
-                  className="absolute inset-x-0 bottom-1 h-4 bg-[#99FCA5] z-0"
+                  className="absolute inset-x-0 bottom-1 h-4 bg-[#028537] z-0"
                   aria-hidden
                 />
               </span>{" "}
@@ -64,7 +64,7 @@ export default function Hero() {
                 {["A", "B", "C", "D"].map((l) => (
                   <div
                     key={l}
-                    className="w-8 h-8 rounded-full bg-[#1A1A1A] text-[#99FCA5] flex items-center justify-center text-xs font-bold border-2 border-[#FAFAFA]"
+                    className="w-8 h-8 rounded-full bg-[#1A1A1A] text-[#5BD478] flex items-center justify-center text-xs font-bold border-2 border-[#FAFAFA]"
                   >
                     {l}
                   </div>

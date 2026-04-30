@@ -5,7 +5,7 @@ const testimonials = [
     name: "Alex R.",
     role: "Maintainer of a popular CLI toolkit",
     initials: "AR",
-    accent: "#99FCA5",
+    accent: "#5BD478",
   },
   {
     quote:
@@ -21,7 +21,7 @@ const testimonials = [
     name: "Sam K.",
     role: "Senior engineer, financial services",
     initials: "SK",
-    accent: "#99FCA5",
+    accent: "#5BD478",
   },
   {
     quote:
@@ -37,7 +37,7 @@ const testimonials = [
     name: "Taylor M.",
     role: "Open-source data tooling author",
     initials: "TM",
-    accent: "#99FCA5",
+    accent: "#5BD478",
   },
   {
     quote:

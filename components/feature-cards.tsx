@@ -4,7 +4,7 @@ const features = [
     title: "Showcase",
     description:
       "Create a beautiful project profile that highlights your work, contributors, and impact. Let the world see what you've built.",
-    accent: "#99FCA5",
+    accent: "#5BD478",
   },
   {
     icon: "◎",
@@ -18,7 +18,7 @@ const features = [
     title: "Support",
     description:
       "Fund maintainers with one-time tips or recurring monthly sponsorships. Every contribution keeps critical software alive.",
-    accent: "#99FCA5",
+    accent: "#5BD478",
   },
   {
     icon: "◉",

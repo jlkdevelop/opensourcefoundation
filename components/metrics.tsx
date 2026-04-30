@@ -13,9 +13,9 @@ export default function Metrics() {
           {stats.map((s) => (
             <div
               key={s.label}
-              className="bg-[#99FCA5]/10 border border-[#99FCA5]/20 rounded-2xl px-6 py-8 text-center"
+              className="bg-[#028537]/10 border border-[#028537]/20 rounded-2xl px-6 py-8 text-center"
             >
-              <div className="text-4xl sm:text-5xl font-black text-[#99FCA5] mb-2">
+              <div className="text-4xl sm:text-5xl font-black text-[#5BD478] mb-2">
                 {s.value}
               </div>
               <div className="text-sm font-semibold text-white/60 uppercase tracking-widest">
