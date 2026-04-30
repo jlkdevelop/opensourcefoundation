@@ -1,5 +1,6 @@
 import Header from "@/components/header";
 import Hero from "@/components/hero";
+import TopProjects from "@/components/top-projects";
 import FeatureCards from "@/components/feature-cards";
 import Metrics from "@/components/metrics";
 import WhySection from "@/components/why-section";
@@ -15,6 +16,7 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
+        <TopProjects />
         <FeatureCards />
         <Metrics />
         <WhySection />

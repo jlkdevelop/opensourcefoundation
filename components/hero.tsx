@@ -53,23 +53,6 @@ export default function Hero() {
               </a>
             </div>
 
-            {/* Social proof */}
-            <div className="mt-10 flex items-center gap-4">
-              <div className="flex -space-x-2">
-                {["A", "B", "C", "D"].map((l) => (
-                  <div
-                    key={l}
-                    className="w-8 h-8 rounded-full bg-[#1A1A1A] text-[#5BD478] flex items-center justify-center text-xs font-bold border-2 border-[#FAFAFA]"
-                  >
-                    {l}
-                  </div>
-                ))}
-              </div>
-              <p className="text-sm text-[#1A1A1A]/60 font-medium">
-                Join <span className="font-bold text-[#1A1A1A]">8,500+</span>{" "}
-                developers already on the platform
-              </p>
-            </div>
           </div>
 
           {/* Right: illustration */}
