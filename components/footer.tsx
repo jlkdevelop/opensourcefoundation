@@ -46,12 +46,16 @@ export default function Footer() {
           <div className="max-w-sm">
             <a
               href="/"
-              className="flex items-center gap-2 font-extrabold text-xl tracking-tight text-white mb-3"
+              className="flex items-center mb-4"
+              aria-label="Open Source Foundation home"
             >
-              <span className="bg-[#99FCA5] text-black rounded px-1.5 py-0.5 text-sm font-black">
-                OSF
-              </span>
-              Open Source Foundation
+              <img
+                src="/logo.png"
+                alt="Open Source Foundation"
+                width={1308}
+                height={401}
+                className="h-10 w-auto brightness-0 invert"
+              />
             </a>
             <p className="text-white/40 text-sm leading-relaxed">
               Connecting the people who build open-source software with the

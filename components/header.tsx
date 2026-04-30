@@ -15,9 +15,14 @@ export default function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-[#FAFAFA]/90 backdrop-blur-sm border-b border-black/5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
         {/* Wordmark */}
-        <a href="/" className="flex items-center gap-2 font-extrabold text-xl tracking-tight text-[#1A1A1A]">
-          <span className="bg-[#99FCA5] text-black rounded px-1.5 py-0.5 text-sm font-black">OSF</span>
-          Open Source Foundation
+        <a href="/" className="flex items-center" aria-label="Open Source Foundation home">
+          <img
+            src="/logo.png"
+            alt="Open Source Foundation"
+            width={1308}
+            height={401}
+            className="h-9 w-auto"
+          />
         </a>
 
         {/* Center nav — desktop */}
