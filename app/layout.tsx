@@ -19,13 +19,11 @@ export const metadata: Metadata = {
     url: "https://opensourcefoundation.org",
     siteName: "Open Source Foundation",
     type: "website",
-    images: [{ url: "/og.png", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Open Source Foundation",
     description: "Fund the future of open source software",
-    images: ["/og.png"],
   },
   robots: { index: true, follow: true },
 };
