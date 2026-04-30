@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import GitHubSignInButton from "./github-signin-button";
 
 const navLinks = [
   { label: "Explore", href: "#explore" },
@@ -40,12 +41,7 @@ export default function Header() {
 
         {/* CTAs — desktop */}
         <div className="hidden md:flex items-center gap-3">
-          <a
-            href="#signin"
-            className="text-sm font-semibold text-[#1A1A1A]/70 hover:text-[#1A1A1A] transition-colors"
-          >
-            Sign in with GitHub
-          </a>
+          <GitHubSignInButton size="sm" />
           <a
             href="#submit"
             className="flex items-center gap-1.5 bg-[#028537] text-white text-sm font-bold px-4 py-2 rounded-full hover:bg-[#019B3F] transition-colors"
@@ -79,12 +75,7 @@ export default function Header() {
               {link.label}
             </a>
           ))}
-          <a
-            href="#signin"
-            className="text-sm font-semibold text-[#1A1A1A]/70"
-          >
-            Sign in with GitHub
-          </a>
+          <GitHubSignInButton size="sm" fullWidth />
           <a
             href="#submit"
             className="flex items-center justify-center gap-1.5 bg-[#028537] text-white text-sm font-bold px-4 py-2 rounded-full"
