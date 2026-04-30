@@ -17,26 +17,10 @@ const testimonials = [
   },
   {
     quote:
-      "I had no idea how many of my daily tools were maintained by single developers. OSF made it easy to find them and actually send money.",
-    name: "Sam K.",
-    role: "Senior engineer, financial services",
-    initials: "SK",
-    accent: "#5BD478",
-  },
-  {
-    quote:
       "Our company now funds 12 open-source projects through OSF. It's the cleanest way to give back without a procurement headache.",
     name: "Jordan P.",
     role: "Engineering manager, SaaS startup",
     initials: "JP",
-    accent: "#C5C8FF",
-  },
-  {
-    quote:
-      "Getting my first supporter notification felt surreal. Three years of commits and finally someone said 'this matters, here's money'.",
-    name: "Taylor M.",
-    role: "Open-source data tooling author",
-    initials: "TM",
     accent: "#5BD478",
   },
   {
@@ -63,7 +47,7 @@ export default function Testimonials() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {testimonials.map((t) => (
             <div
               key={t.initials}
