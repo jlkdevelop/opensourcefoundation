@@ -1,11 +1,10 @@
 import Image from "next/image";
-import GitHubSignInButton from "./github-signin-button";
 
 export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative pt-24 lg:pt-28 pb-12 lg:pb-16 overflow-hidden bg-[#FAFAFA]"
+      className="relative pt-20 lg:pt-24 pb-8 lg:pb-10 overflow-hidden bg-[#FAFAFA]"
     >
       {/* Background accent */}
       <div
@@ -37,22 +36,11 @@ export default function Hero() {
               software
             </h1>
 
-            <p className="text-base sm:text-lg text-[#1A1A1A]/60 font-medium leading-relaxed mb-7 max-w-xl">
+            <p className="text-base sm:text-lg text-[#1A1A1A]/60 font-medium leading-relaxed max-w-xl">
               Connect supporters with the maintainers behind the tools the world
               depends on. Showcase your project, attract funding, and keep open
               source thriving.
             </p>
-
-            <div className="flex flex-col sm:flex-row gap-4">
-              <GitHubSignInButton size="lg" />
-              <a
-                href="#explore"
-                className="flex items-center justify-center gap-2 border-2 border-[#1A1A1A] text-[#1A1A1A] font-bold px-6 py-3.5 rounded-full hover:bg-[#1A1A1A] hover:text-white transition-colors"
-              >
-                Explore Projects <span aria-hidden>→</span>
-              </a>
-            </div>
-
           </div>
 
           {/* Right: illustration */}
